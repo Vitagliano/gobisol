@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import CustomScrollbar from "./components/CustomScrollbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,9 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-b from-[#10BDF7] to-white `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-b from-[#10BDF7] to-white`}
       >
         {children}
+        <CustomScrollbar />
       </body>
     </html>
   );
