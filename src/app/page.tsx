@@ -52,7 +52,7 @@ export default function Home() {
               className="absolute z-3 h-auto w-[19%] bottom-[11%] left-[6.2%] opacity-0 group-hover:opacity-100 "
             />
           </a>
-          <a href="https://dexscreener.com/" target="_blank" className="group">
+          {/* <a href="https://dexscreener.com/" target="_blank" className="group">
             <img
               src="/images/dex.png"
               alt="Dexscreener"
@@ -79,7 +79,7 @@ export default function Home() {
               draggable={false}
               className="absolute z-3 h-auto w-[20.85%] bottom-[24.8%] right-[8.08%] opacity-0 group-hover:opacity-100 "
             />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
