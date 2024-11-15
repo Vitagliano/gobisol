@@ -1,6 +1,4 @@
 "use client";
-import { motion } from "framer-motion";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -20,10 +18,7 @@ export default function Home() {
           className="absolute z-0 min-w-screen w-full h-auto"
         />
       </div>
-      <div
-        className="relative h-full w-full"
-        id="content"
-      >
+      <div className="relative h-full w-full" id="content">
         <img
           src="/images/forest-front.png"
           alt="Gobi on the forest"
