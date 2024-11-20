@@ -27,10 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-b from-[#10BDF7] to-white`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <CustomScrollbar />
+        {/* <CustomScrollbar /> */}
       </body>
     </html>
   );
