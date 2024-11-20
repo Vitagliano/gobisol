@@ -73,7 +73,11 @@ export default function Home() {
               className="absolute z-3 h-auto w-[19%] bottom-[39%] left-[6.2%] opacity-0 group-hover:opacity-100 "
             />
           </a>
-          <a href="https://pump.fun/coin/CwdjgD54hgTQChspxHhirWLQWqy3EsxtndrcpLBqpump" target="_blank" className="group">
+          <a
+            href="https://dexscreener.com/solana/CwdjgD54hgTQChspxHhirWLQWqy3EsxtndrcpLBqpump"
+            target="_blank"
+            className="group"
+          >
             <img
               src="/images/dex.webp"
               alt="Dexscreener"
@@ -87,7 +91,7 @@ export default function Home() {
               className="absolute z-3 h-auto w-[15.3%] bottom-[44.25%] left-[27.5%] opacity-0 group-hover:opacity-100 "
             />
           </a>
-          <a href="https://t.me/" target="_blank" className="group">
+          <a href="https://t.me/gobithecoin" target="_blank" className="group">
             <img
               src="/images/tg.webp"
               alt="Telegram"
@@ -102,7 +106,7 @@ export default function Home() {
             />
           </a>
         </div>
-        <div className="relative h-full w-full z-2 flex flex-col justify-center -mt-12 md:-mt-0">
+        <div className="relative h-full w-full z-2 flex flex-col justify-center -mt-8 md:-mt-0">
           <img
             src="/images/forest-bottom.webp"
             alt=""
@@ -110,7 +114,7 @@ export default function Home() {
             className="absolute w-full h-auto z-2"
           />
 
-          <div className="w-full relative z-3 px-12 flex md:flex-row flex-col justify-center md:gap-12 items-center">
+          <div className="w-full relative z-3 px-12 flex md:flex-row flex-col justify-center md:gap-12 items-center -mt-12 md:-mt-0">
             <img
               src="/images/gobi-portal.webp"
               className="w-[50%] md:w-1/2 h-auto hidden md:block "
@@ -126,12 +130,22 @@ export default function Home() {
               draggable={false}
             />
           </div>
-          <a href="https://solscan.io/token/xxx" target="_blank">
+          <a
+            href="https://solscan.io/token/CwdjgD54hgTQChspxHhirWLQWqy3EsxtndrcpLBqpump"
+            target="_blank"
+            className="group"
+          >
             <img
               src="/images/board.webp"
               alt="Board"
               draggable={false}
-              className="w-full h-auto relative z-3 px-12 md:px-24 mt-12 md:mt-24 "
+              className="w-full h-auto absolute z-3 px-12 md:px-24 mt-12 md:mt-24 opacity-100 group-hover:opacity-0"
+            />
+            <img
+              src="/images/board-hover.webp"
+              alt="Board"
+              draggable={false}
+              className="w-full h-auto absolute z-3 px-12 md:px-24 mt-12 md:mt-24 opacity-0 group-hover:opacity-100"
             />
           </a>
         </div>
