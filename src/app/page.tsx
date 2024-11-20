@@ -59,7 +59,7 @@ export default function Home() {
             draggable={false}
             className="absolute z-3 h-auto w-[30.5%] bottom-[17%] right-[26.6%]"
           />
-          <a href="https://x.com/TheGumbaz" target="_blank" className="group">
+          <a href="https://x.com/gobinsol" target="_blank" className="group">
             <img
               src="/images/x.webp"
               alt="X (Twitter)"
@@ -73,7 +73,7 @@ export default function Home() {
               className="absolute z-3 h-auto w-[19%] bottom-[39%] left-[6.2%] opacity-0 group-hover:opacity-100 "
             />
           </a>
-          <a href="https://dexscreener.com/" target="_blank" className="group">
+          <a href="https://pump.fun/coin/CwdjgD54hgTQChspxHhirWLQWqy3EsxtndrcpLBqpump" target="_blank" className="group">
             <img
               src="/images/dex.webp"
               alt="Dexscreener"
