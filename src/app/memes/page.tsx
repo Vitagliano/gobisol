@@ -10,13 +10,19 @@ interface MemeImage {
 
 const Memes = () => {
   // Corrected path to the memes.json file
-  const memesDataPath = path.join(process.cwd(), "src", "app", "memes", "memes.json");
+  const memesDataPath = path.join(
+    process.cwd(),
+    "src",
+    "app",
+    "memes",
+    "memes.json"
+  );
 
   // Synchronously read the JSON file
   const memesData = JSON.parse(fs.readFileSync(memesDataPath, "utf-8"));
 
   // Map the JSON data to the MemeImage interface
-  const memes: MemeImage[] = memesData.map((meme: any) => ({
+  const memes: MemeImage[] = memesData.map((meme: MemeImage) => ({
     src: meme.src,
     name: meme.name,
   }));
