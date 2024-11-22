@@ -1,26 +1,25 @@
+import MemesList from "@/components/MemesList";
 import fs from "fs";
 import path from "path";
-import MemesList from "@/components/MemesList";
 
+// Define the MemeImage interface
 interface MemeImage {
   src: string;
   name: string;
 }
 
 const Memes = () => {
-  const getMemeImages = (): MemeImage[] => {
-    const memesDirectory = path.join(process.cwd(), "public/images/memes");
-    const filenames = fs.readdirSync(memesDirectory);
+  // Corrected path to the memes.json file
+  const memesDataPath = path.join(process.cwd(), "src", "app", "memes", "memes.json");
 
-    const memes = filenames.map((filename) => ({
-      src: `/images/memes/${filename}`,
-      name: filename.split(".")[0],
-    }));
+  // Synchronously read the JSON file
+  const memesData = JSON.parse(fs.readFileSync(memesDataPath, "utf-8"));
 
-    return memes;
-  };
-
-  const memes = getMemeImages();
+  // Map the JSON data to the MemeImage interface
+  const memes: MemeImage[] = memesData.map((meme: any) => ({
+    src: meme.src,
+    name: meme.name,
+  }));
 
   return (
     <div className="container mx-auto px-4 py-8">
