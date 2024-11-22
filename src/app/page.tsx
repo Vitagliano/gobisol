@@ -106,7 +106,7 @@ export default function Home() {
             />
           </a>
         </div>
-        <div className="relative h-full w-full z-2 flex flex-col justify-center -mt-8 md:-mt-0">
+        <div className="relative h-full w-full z-2 flex flex-col justify-center ">
           <img
             src="/images/forest-bottom.webp"
             alt=""
