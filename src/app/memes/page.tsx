@@ -7,7 +7,7 @@ interface MemeImage {
   name: string;
 }
 
-export default function Memes() {
+const Memes = () => {
   const getMemeImages = (): MemeImage[] => {
     const memesDirectory = path.join(process.cwd(), "public/images/memes");
     const filenames = fs.readdirSync(memesDirectory);
@@ -27,4 +27,6 @@ export default function Memes() {
       <MemesList memes={memes} />
     </div>
   );
-}
+};
+
+export default Memes;
