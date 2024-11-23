@@ -59,7 +59,7 @@ export default function Home() {
             draggable={false}
             className="absolute z-3 h-auto w-[30.5%] bottom-[17%] right-[26.6%]"
           />
-          <a href="https://x.com/gobinsol" target="_blank" className="group">
+          <a href="https://x.com/gobiverse?s=21" target="_blank" className="group">
             <img
               src="/images/x.webp"
               alt="X (Twitter)"
@@ -91,7 +91,7 @@ export default function Home() {
               className="absolute z-3 h-auto w-[15.3%] bottom-[44.25%] left-[27.5%] opacity-0 group-hover:opacity-100 "
             />
           </a>
-          <a href="https://t.me/gobithecoin" target="_blank" className="group">
+          <a href="https://t.me/GOBIversecommunity" target="_blank" className="group">
             <img
               src="/images/tg.webp"
               alt="Telegram"
