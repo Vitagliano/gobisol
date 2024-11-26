@@ -59,7 +59,7 @@ export default function Home() {
             draggable={false}
             className="absolute z-3 h-auto w-[30.5%] bottom-[17%] right-[26.6%]"
           />
-          <a href="https://x.com/gobiverse?s=21" target="_blank" className="group">
+          <a href="https://x.com/gobixyz?s=21" target="_blank" className="group">
             <img
               src="/images/x.webp"
               alt="X (Twitter)"
